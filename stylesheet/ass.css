@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+.bg {
+    background-image: url("Assets/Hero-bg.png");
+    height: 698px;
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container ul li{
+   display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+  font-size: 34px;
+  justify-content: space-between;
+
+}
+.text{
+    text-align: center;
+    font-size: 65px bolder;
+    margin: 267px 309px 267px 85px;
+    font-family: Georgia, 'Times New Roman';
+
+
+}
+
+
+.btn-section{
+    color: white;
+    font-size: 17px;
+    padding: 16px;
+    background-color:#4E47FF;
+    border-radius: 10px;
+    
+ 
+
+}
