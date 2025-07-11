@@ -9,11 +9,14 @@
     background-size: cover;
     position: relative;
 }
-.container ul li{
+.container{
+    justify-content: center;
+}
+.navi{
    display: flex;
-  list-style: none;
   padding: 0;
-  gap: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
   font-size: 34px;
   justify-content: space-between;
 
@@ -34,7 +37,37 @@
     padding: 16px;
     background-color:#4E47FF;
     border-radius: 10px;
+
     
  
 
+}
+/* main section*/
+main{
+    min-width: 1170px;
+    margin-left:130px;
+    margin-right: 130px;
+    margin-top: 160px;
+}
+.section-1{
+    display: flex;
+    margin-top: 160px;
+    gap:20px;
+    justify-content: center;
+
+}
+
+.one h2{
+    font-size: 42px;
+    font-family: 'Times New Roman';
+    text-align: left;
+
+}
+p{
+    font-size:22px;
+    color: #CCCCCC;
+
+}
+img{
+    border-radius: 15px;
 }
