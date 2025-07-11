@@ -120,3 +120,24 @@ flex:1;
     gap: 1rem;
 
 }
+input, textarea {
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.footer {
+    background: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.footer nav {
+    margin-top: 1rem;
+}
+
+.footer nav a {
+    margin: 0 1rem;
+    color: #555;
+    text-decoration: none;
+}
