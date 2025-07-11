@@ -20,5 +20,28 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
 }
+.btn:hover {
+    transform: scale(1.05);
+    background: #4f46e5;
+}
+
+header.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem;
+    color: rgb(20, 19, 19);
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.banner-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
   
