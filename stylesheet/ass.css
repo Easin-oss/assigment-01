@@ -20,6 +20,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
 }
+
 .btn:hover {
     transform: scale(1.05);
     background: #4f46e5;
@@ -32,6 +33,7 @@ header.banner {
     color: rgb(20, 19, 19);
     text-align: center;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,4 +46,24 @@ header.banner {
     margin-bottom: 1rem;
 }
 
-  
+.action {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+.action-left{
+    flex:1;
+}
+.action-right img{
+    width:100%;
+    max-width: 500px;
+    border radius:12px;
+
+}
+.productive{
+    padding: reem 2 rem;
+    text-align: center;
+}
