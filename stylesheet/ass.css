@@ -94,3 +94,7 @@ img{
 .te{
     color: #000000;
 }
+div ol li{
+    display: flex;
+    list-style-image: none;
+}
