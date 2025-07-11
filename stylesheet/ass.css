@@ -60,7 +60,7 @@ header.banner {
 .action-right img{
     width:100%;
     max-width: 500px;
-    border radius:12px;
+    border-radius: 12px;
 
 }
 .productive{
@@ -69,7 +69,7 @@ header.banner {
 }
 .stats{
     display: flex;
-    gap 1.5 rem;
+    gap:1.5 rem;
     text-align: center;
 
 }
@@ -84,4 +84,19 @@ header.banner {
     justify-content: center;
      margin-top: 2 rem;
      flex-wrap:  wrap;
+}
+.card{
+    background:#fff;
+    padding:1 rem;
+    border border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 300px;
+
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
 }
