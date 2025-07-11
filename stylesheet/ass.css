@@ -26,6 +26,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
+    margin-bottom: 179px;
 }
 
 .btn:hover {
@@ -52,22 +53,23 @@ body {
 }
 
 .banner-content h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 65 px;
+
 }
 
 .action {
 
     display: flex;
     justify-content: space-between;
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
     align-items: center;
-    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 116px;
+
 }
 
-.action-left {
-    flex: 1;
-}
+.action-left {}
 
 .action-right img {
     width: 100%;
@@ -78,41 +80,62 @@ body {
 }
 
 .productive {
-
-    padding: reem 2 rem;
+    background-color: #4E47FF10;
+    margin: 0 auto;
+    margin-top: 116px;
     text-align: center;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.users {
+    font-size: 38px;
 }
 
 .stats {
     display: flex;
     color: #4E47FF;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1.5 rem;
     margin-top: 1rem;
     font-weight: bold;
-    width: 1140px;
-    height: 309px;
+
+
     border-radius: 10px;
+    font-size: 80px;
 
 
 }
 
 .pera {
-    font-size: 10px;
+    font-size: 20px;
     color: #504e4e;
-    gap: 2rem;
+
 
 }
 
 .feedback {
+    margin-top: 137px;
     padding: 4rem 2 rem;
     text-align: center;
 
 }
 
+.focus {
+    margin-top: 137px;
+    text-align: center;
+
+}
+
+.pic {
+    gap: 20px;
+    border-radius: 48px;
+
+}
+
 .reviews {
     display: flex;
-    gap: 1.5 rem;
+    gap: 2rem;
     justify-content: center;
     margin-top: 2 rem;
     flex-wrap: wrap;
@@ -136,7 +159,10 @@ body {
 }
 
 .contact {
+    
     display: flex;
+    width: 80%;
+    margin: 74px auto;
     justify-content: space-between;
     padding: 4rem 2rem;
     background: #eef1f4;
@@ -144,6 +170,9 @@ body {
 }
 
 .contact-left {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
     flex: 1;
 }
 
@@ -169,6 +198,10 @@ textarea {
     background: #fff;
     padding: 3rem 2rem;
     text-align: center;
+}
+.ready{
+    color: #4E47FF;
+    font-size: 70px;
 }
 
 .footer nav {
