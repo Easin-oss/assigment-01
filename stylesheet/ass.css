@@ -67,3 +67,21 @@ header.banner {
     padding: reem 2 rem;
     text-align: center;
 }
+.stats{
+    display: flex;
+    gap 1.5 rem;
+    text-align: center;
+
+}
+.feedback{
+    padding: 4rem 2 rem;
+    text-align: center;
+
+}
+.reviews{
+    display:flex;
+    gap: 1.5 rem;
+    justify-content: center;
+     margin-top: 2 rem;
+     flex-wrap:  wrap;
+}
