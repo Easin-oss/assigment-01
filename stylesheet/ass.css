@@ -12,6 +12,7 @@ body {
 }
 
 .logo {
+
     color: #4E47FF;
     font-family: 'Segoe UI';
     font-size: 34px;
@@ -21,12 +22,11 @@ body {
 .btn {
     background: #6366f1;
     color: #fff;
-    border: none;
     padding: 0.7rem 1.5rem;
     border-radius: 6px;
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
-    margin-bottom: 179px;
+
 }
 
 .btn:hover {
@@ -35,25 +35,28 @@ body {
 }
 
 .banner {
+
     background-size: cover;
     background-position: center;
-
+    margin-bottom: 179px;
     color: rgb(20, 19, 19);
     text-align: center;
     padding: 0px 150px;
     padding-top: 50px;
+
 
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
+     align-items: center; 
+
 }
 
 .banner-content h1 {
     font-size: 65 px;
+
 
 }
 
@@ -61,7 +64,7 @@ body {
 
     display: flex;
     justify-content: space-between;
-    /* padding: 4rem 2rem; */
+
     align-items: center;
     width: 80%;
     margin: 0 auto;
@@ -159,7 +162,7 @@ body {
 }
 
 .contact {
-    
+
     display: flex;
     width: 80%;
     margin: 74px auto;
@@ -199,7 +202,8 @@ textarea {
     padding: 3rem 2rem;
     text-align: center;
 }
-.ready{
+
+.ready {
     color: #4E47FF;
     font-size: 70px;
 }
