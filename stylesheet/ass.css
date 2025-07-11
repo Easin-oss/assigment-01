@@ -11,6 +11,13 @@ body {
     color: #111;
 }
 
+.logo {
+    color: #4E47FF;
+    font-family: 'Segoe UI';
+    font-size: 34px;
+    font-weight: bold;
+}
+
 .btn {
     background: #6366f1;
     color: #fff;
@@ -54,73 +61,102 @@ header.banner {
     align-items: center;
     gap: 2rem;
 }
-.action-left{
-    flex:1;
+
+.action-left {
+    flex: 1;
 }
-.action-right img{
-    width:100%;
+
+.action-right img {
+    width: 100%;
     max-width: 500px;
     border-radius: 12px;
+    
 
 }
-.productive{
+
+.productive {
+    
     padding: reem 2 rem;
     text-align: center;
 }
+
 .stats{
-    display: flex;
-    gap:1.5 rem;
-    text-align: center;
+   display: flex;
+    color:#4E47FF;
+    justify-content: center;
+    gap: 1.5 rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    width: 1140px;
+    height:309px;
+    border-radius: 10px;
+    
 
 }
-.feedback{
+
+.pera {
+    font-size: 10px;
+    color: #504e4e;
+    gap:2rem;
+
+}
+
+.feedback {
     padding: 4rem 2 rem;
     text-align: center;
 
 }
-.reviews{
-    display:flex;
+
+.reviews {
+    display: flex;
     gap: 1.5 rem;
     justify-content: center;
-     margin-top: 2 rem;
-     flex-wrap:  wrap;
+    margin-top: 2 rem;
+    flex-wrap: wrap;
 }
-.card{
-    background:#fff;
-    padding:1 rem;
+
+.card {
+    background: #fff;
+    padding: 1 rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     width: 300px;
 
 }
-.card img{
+
+.card img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0.5rem;
 }
-.contact{
-    display:flex;
+
+.contact {
+    display: flex;
     justify-content: space-between;
-    padding:4rem 2rem;
+    padding: 4rem 2rem;
     background: #eef1f4;
-    gap:2rem;
-}
-.contact-left{
-flex:1;
+    gap: 2rem;
 }
 
-.contact-right{
-    flex:1;
+.contact-left {
+    flex: 1;
 }
-.contact-right form{
-    display :flex;
+
+.contact-right {
+    flex: 1;
+}
+
+.contact-right form {
+    display: flex;
     flex-direction: column;
     gap: 1rem;
 
 }
-input, textarea {
+
+input,
+textarea {
     padding: 0.75rem;
     border-radius: 6px;
     border: 1px solid #ccc;
