@@ -33,12 +33,15 @@ body {
     background: #4f46e5;
 }
 
-header.banner {
+.banner {
     background-size: cover;
     background-position: center;
-    padding: 4rem 2rem;
+
     color: rgb(20, 19, 19);
     text-align: center;
+    padding: 0px 150px;
+    padding-top: 50px;
+
 }
 
 .navbar {
@@ -70,34 +73,34 @@ header.banner {
     width: 100%;
     max-width: 500px;
     border-radius: 12px;
-    
+
 
 }
 
 .productive {
-    
+
     padding: reem 2 rem;
     text-align: center;
 }
 
-.stats{
-   display: flex;
-    color:#4E47FF;
+.stats {
+    display: flex;
+    color: #4E47FF;
     justify-content: center;
     gap: 1.5 rem;
     margin-top: 1rem;
     font-weight: bold;
     width: 1140px;
-    height:309px;
+    height: 309px;
     border-radius: 10px;
-    
+
 
 }
 
 .pera {
     font-size: 10px;
     color: #504e4e;
-    gap:2rem;
+    gap: 2rem;
 
 }
 
